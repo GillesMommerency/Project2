@@ -1,0 +1,18 @@
+Output van de backend
+1
+[{"budget":300000000,"homepage":"http://disney.go.com/disneypictures/pirates/","id":285,"original_language":"en","original_title":"Pirates of the Caribbean: At World's End","overview":"Captain Barbossa, long believed to be dead, has come back to life and is headed to the edge of the Earth with Will Turner and Elizabeth Swann. But nothing is quite as it seems.","popularity":139.082615,"release_date":"2007-05-19","revenue":961000000,"runtime":169,"status":"Released","tagline":"At the end of the world, the adventure begins.","title":"Pirates of the Caribbean: At World's End","vote_average":6.9,"vote_count":4500}]
+
+2a
+[{"keyword_id":1222,"keyword_name":"zurich"},{"keyword_id":12971,"keyword_name":"zookeeper"},{"keyword_id":2172,"keyword_name":"zoo"},{"keyword_id":167085,"keyword_name":"zombification"},{"keyword_id":186565,"keyword_name":"zombie apocalypse"}]
+
+2b
+238219
+
+3a
+[{"genre_id":12,"genre_name":"Adventure"},{"genre_id":14,"genre_name":"Fantasy"},{"genre_id":16,"genre_name":"Animation"},{"genre_id":18,"genre_name":"Thriller"},{"genre_id":27,"genre_name":"Horror"},{"genre_id":28,"genre_name":"Action"},{"genre_id":35,"genre_name":"Comedy"},{"genre_id":36,"genre_name":"History"},{"genre_id":37,"genre_name":"Western"},{"genre_id":53,"genre_name":"Thriller"}]
+
+3b
+{"response":"Genre 16 aangepast naar 'Animation'"}
+
+3c
+{"error":"Genre 22 niet gevonden in de database"}

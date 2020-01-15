@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta data -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MCT-MDB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/screen.css" />
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <script defer src="script/dataHandler.js"></script>
+    <script defer src="script/app_index.js"></script>
+  </head>
+  <body>
+    <div class="c-app">
+      <div class="c-search">
+        <div class="js-alfabet">
+          <div class="letter">A</div>
+          <div class="letter">B</div>
+          <div class="letter">...</div>
+        </div>
+      </div>
+      <div class="c-found">
+        <div class="js-movies">
+          <div class="movie">
+            <h1><img class="image" src="assets/en.png" />Film 1</h1>
+            <!-- <div></div> -->
+            <div><span>Budget: </span>4.000.000</div>
+            <div><span>Homepage: </span><br /><a href="http://www.movie.be">http://www.movie.be</a></div>
+            <div><span>Overview: </span>Dit is een eerste tekstje</div>
+            <div><span>Popularity: </span><span class="u-number-font">4.000.000</span></div>
+            <div><span>Realease Date: </span><span class="u-number-font">01/01/2010</span></div>
+            <div><span>Revenue: </span><span class="u-number-font">4.000.000</span></div>
+            <div><span>Runtime: </span><span class="u-number-font">4 u</span></div>
+            <div><span>Status: </span>Good</div>
+            <div><span>Tagline: </span>The best movie ever</div>
+            <div><span>Titel: </span>Dit is een titel</div>
+            <div><span>Vote average: </span><span class="u-number-font">4.9</span></div>
+            <div><span>Vote Count: </span><span class="u-number-font">4.000.000</span></div>
+            <div class="keywords" data-movieid="">
+              <span>Keywords</span>
+              <ol>
+                <li>Keyword 1</li>
+                <li>Keyword 2</li>
+                <li>Keyword 3</li>
+              </ol>
+            </div>
+          </div>
+          <div class="movie">
+            <h1><img class="image" src="assets/en.png" />Film 1</h1>
+            <!-- <div></div> -->
+            <div><span>Budget: </span>4.000.000</div>
+            <div><span>Homepage: </span><br /><a href="http://www.movie.be">http://www.movie.be</a></div>
+            <div><span>Overview: </span>Dit is een eerste tekstje</div>
+            <div><span>Popularity: </span><span class="u-number-font">4.000.000</span></div>
+            <div><span>Realease Date: </span><span class="u-number-font">01/01/2010</span></div>
+            <div><span>Revenue: </span><span class="u-number-font">4.000.000</span></div>
+            <div><span>Runtime: </span><span class="u-number-font">4 u</span></div>
+            <div><span>Status: </span>Good</div>
+            <div><span>Tagline: </span>The best movie ever</div>
+            <div><span>Titel: </span>Dit is een titel</div>
+            <div><span>Vote average: </span><span class="u-number-font">4.9</span></div>
+            <div><span>Vote Count: </span><span class="u-number-font">4.000.000</span></div>
+            <div class="keywords" data-movieid="">
+              <span>Keywords</span>
+              Click to open
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <span class="quote"><form action="https://drb-examen.azurewebsites.net" method="GET"></form></span>
+      <div><span class="movie_quote">E.T. The Extra-Terrestrial</span> <span class="year">(1982)</span></div>
+    </footer>
+  </body>
+</html>

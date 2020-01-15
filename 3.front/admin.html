@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta data -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Device Programming Examen 20 mei 2019</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/screen.css" />
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo=" crossorigin="anonymous"></script>
+    <script defer src="script/script.js"></script>
+    <script defer src="script/dataHandler.js"></script>
+    <script defer src="script/app_admin.js"></script>
+  </head>
+    <!-- <form style="text-align: center; margin-top: 50px;" method="POST">
+      <label>Geef hier je vraag in</label><br>  
+      <input style="width: 50%;" type="textarea" name='vraag'><br><br>
+      <label>Geef hier de antwoorden in:</label><br>
+      <input type="radio" name="juist">&nbsp; <input type="text" name='antwoord1'><br><br>
+      <input type="radio" name="juist">&nbsp;<input type="text" name='antwoord2'><br><br>
+      <input type="radio" name="juist">&nbsp;<input type="text" name='antwoord3'><br><br>
+      <input type="radio" name="juist">&nbsp;<input type="text" name='antwoord4'><br><br>
+      <input type="submit" value="Submit"/>
+      <div  class="button dag">
+        Voeg toe
+        </div>
+    </form> -->
+    <form action="/signup" method="post">
+      <input type="text" name="email"></input>
+      <input type="submit" value="Signup"></input>
+    </form>
+  </body>
+</html>
