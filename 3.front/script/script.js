@@ -6,6 +6,9 @@ const IP = 'http://127.0.0.1:5000';
 const backend = IP + '/api/v1';
 
 
+
+
+
 const addQuestion = function(){
     var form = document.forms[0];
     var vraag = form.querySelector('input[name="vraag"]').value;
@@ -15,19 +18,40 @@ const addQuestion = function(){
     var antwoord4 = form.querySelector('input[name="antwoord4"]').value;
     if(antwoord1 !='' && antwoord2 !='' && antwoord3 !='' && antwoord4 !='')
     {
-    let data =  [vraag, antwoord1, antwoord2, antwoord3, antwoord4]
+        let data =  [vraag, antwoord1, antwoord2, antwoord3, antwoord4]
+        console.log(data)
+        var json =JSON.stringify(data);
+        console.log(json);
+        postQuestion(json);
     
-    console.log(data)
-    }else{
+    }
+    else{
         console.log('incomplete')
     }
    
 }
 
+const postQuestion = function(json) {
+    fetch( `http://${window.location.hostname}:5000/api/v1/addVraag`,
+        {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: json
+      });
+      //const content = rawResponse.json();
+    
+      //console.log(content);
+};
+
 const init = function() {
 	// Get some DOM, we created empty earlier.
-    // let button = document.querySelector('.dag')
-    // button.addEventListener('click', addQuestion)
+    let buttonQuestion = document.querySelector('.dag')
+    buttonQuestion.addEventListener('click', addQuestion)
+    let buttonLogin = document.querySelector('.login')
+    buttonLogin.addEventListener('click', login)
     
 };
 
