@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2a.backend.iml" filepath="$PROJECT_DIR$/.idea/2a.backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Week6/bronmateriaal/bronmateriaal/back/.idea/back.iml" filepath="$PROJECT_DIR$/../../Week6/bronmateriaal/bronmateriaal/back/.idea/back.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../SmartMirror-master/backend/.idea/backend.iml" filepath="$PROJECT_DIR$/../../SmartMirror-master/backend/.idea/backend.iml" />
     </modules>
   </component>

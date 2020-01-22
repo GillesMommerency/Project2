@@ -14,23 +14,23 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style/screen.css" />
 
     <!-- Script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo=" crossorigin="anonymous"></script>
-    <script defer src="script/login.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script defer src="script/mainpage.js"></script>
     <script defer src="script/dataHandler.js"></script>
     <script defer src="script/app_admin.js"></script>
   </head>
-    <form style="text-align: center; margin-top: 50px;" method="POST">
-      <label>Log in:</label><br><br>
-      <label>Gebruikersnaam:</label><br>
-     <input type="text" name='gebruikersnaam'><br><br>
-     <label>Wachtwoord:</label><br>
-      <input type="text" name='wachtwoord'><br><br>
-      <div  class="button dag login">
-        Log in
+    <div style="text-align: center; margin-top: 50px;">
+      <label>BEHOUD DE RUST QUIZ</label><br>  
+      <div  class="button dag beheer">
+        Beheer quizzes
         </div>
-        <div class="button dag register">
-          Maak account
-          </div>
+        <div  class="button dag start">
+            Start een quiz
+            </div>
+            <div  class="button dag logout">
+              Log uit
+              </div>
+    </div>
     </form>
    
   </body>

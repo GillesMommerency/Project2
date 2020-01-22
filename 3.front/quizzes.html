@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta data -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Device Programming Examen 20 mei 2019</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/quiz.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/screen.css" />
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script defer src="script/quizzes.js"></script>
+    <script defer src="script/dataHandler.js"></script>
+    <script defer src="script/app_admin.js"></script>
+  </head>
+  <body>
+     <form method="POST">
+      <h1>Input nieuwe vraag met naam:</h1>
+      <input style="width: 300px; height: 40px; clear: right;" type="text" name='naam'>
+    <div class="button newQuiz">New</div>
+   </form>
+    <h1>Quizzes:</h1>
+    <hr>
+    <div class="quizzes">
+      Loading...
+     </div>
+   
+  </body>
+</html>

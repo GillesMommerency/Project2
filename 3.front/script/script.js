@@ -18,11 +18,26 @@ const addQuestion = function(){
     var antwoord4 = form.querySelector('input[name="antwoord4"]').value;
     if(antwoord1 !='' && antwoord2 !='' && antwoord3 !='' && antwoord4 !='')
     {
-        let data =  [vraag, antwoord1, antwoord2, antwoord3, antwoord4]
-        console.log(data)
+        if (document.getElementById('antwoord1').checked) {
+            let data =  [vraag, antwoord1, antwoord2, antwoord3, antwoord4]
         var json =JSON.stringify(data);
-        console.log(json);
         postQuestion(json);
+          }
+          if (document.getElementById('antwoord2').checked) {
+            let data =  [vraag, antwoord2, antwoord3, antwoord4, antwoord1]
+        var json =JSON.stringify(data);
+        postQuestion(json);
+          }
+          if (document.getElementById('antwoord3').checked) {
+            let data =  [vraag, antwoord3, antwoord4, antwoord1, antwoord2]
+        var json =JSON.stringify(data);
+        postQuestion(json);
+          }
+          if (document.getElementById('antwoord4').checked) {
+            let data =  [vraag, antwoord4, antwoord1, antwoord2, antwoord3]
+        var json =JSON.stringify(data);
+        postQuestion(json);
+          }
     
     }
     else{
@@ -50,8 +65,6 @@ const init = function() {
 	// Get some DOM, we created empty earlier.
     let buttonQuestion = document.querySelector('.dag')
     buttonQuestion.addEventListener('click', addQuestion)
-    let buttonLogin = document.querySelector('.login')
-    buttonLogin.addEventListener('click', login)
     
 };
 

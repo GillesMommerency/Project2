@@ -1,0 +1,17 @@
+.btns {
+    float: right;
+    
+}
+
+.quizzes{
+    text-align: center;
+    width: 100%;
+}
+.quiz{
+    width: 100%;
+    clear: both;
+}
+
+.newQuiz{
+    float: right;
+}

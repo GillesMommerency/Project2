@@ -4,8 +4,7 @@ const IP = 'http://127.0.0.1:5000';
 // const socket = io.connect(IP);
 const backend = IP + '/api/v1';
 
-
-const login = function(){
+const register = function(){
     var form = document.forms[0];
     var gebruikersnaam = form.querySelector('input[name="gebruikersnaam"]').value;
     var wachtwoord = form.querySelector('input[name="wachtwoord"]').value;
@@ -16,20 +15,21 @@ const login = function(){
         console.log(data)
         var json =JSON.stringify(data);
         console.log(json);
-        checkLogin(json);
+        checkRegister(json);
     }
     else{
-        console.log('incomplete')
+        console.log('Vul gebruikersnaam en wachtwoord in!')
     }
    
 }
 
-const checkLogin = function(json) {
-    fetch( `http://${window.location.hostname}:5000/api/v1/checkLogin`,
+const checkRegister = function(json) {
+    fetch( `http://${window.location.hostname}:5000/api/v1/Register`,
         {
         method: 'POST',
         body: json,
         headers: {
+        'Access-Control-Allow-Origin': '*',
           'Accept': 'application/json',
           'Content-Type': 'application/json'
         }
@@ -45,12 +45,13 @@ const checkLogin = function(json) {
     })
     .then(function(jsonObject) {
         console.info('json object is aangemaakt');
-        console.info('verwerken data');
-       if(jsonObject[0]['Amount']){
-        window.location.href = "http://127.0.0.1:5500/main.html";
+        console.info(jsonObject);
+       if(!jsonObject){
+        window.location.href = "http://127.0.0.1:5500/login.html";
+        alert('Account aangemaakt je kunt nu inloggen!')
        }
        else{
-           alert('Onjuiste gegevens!');
+           alert('Gebruikersnaam bestaat al!');
            
        }
     })
@@ -59,16 +60,10 @@ const checkLogin = function(json) {
     });
 };
 
-const goToRegisterPage = function(){
-    window.location.href = "http://127.0.0.1:5500/register.html";
-}
-
 const init = function() {
-	// Get some DOM, we created empty earlier.
-    let buttonLogin = document.querySelector('.login')
-    buttonLogin.addEventListener('click', login)
     let buttonRegister = document.querySelector('.register')
-    buttonRegister.addEventListener('click', goToRegisterPage)
+    buttonRegister.addEventListener('click', register)
+    
 };
 
 
