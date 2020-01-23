@@ -38,17 +38,38 @@ def connecting():
 def alle_bestemmingen():
     if request.method == 'GET':
         global Username
-        Username = 'Gilles'
         quizzes = conn.get_data("SELECT * FROM quiz WHERE Gebruikersnaam = '%s'" % (Username))
         return jsonify(quizzes),200
 
-@app.route(endpoint + '/addVraag', methods = ['POST'])
-def addVraag():
+@app.route(endpoint + '/addVraag/<quizid>', methods = ['POST'])
+def addVraag(quizid):
     data = request.get_json();
-    conn.set_data(
-        'INSERT INTO vraag (QuizId, vraaginhoud, JuistAntwoord, VerkeerdAntwoord1, VerkeerdAntwoord2, VerkeerdAntwoord3) values (1, %s, %s, %s, %s, %s)',
-        [data[0], data[1], data[2], data[3], data[4]])
-    return "Added question!"
+    ret = conn.set_data(
+        'INSERT INTO vraag (QuizId, vraaginhoud, JuistAntwoord, VerkeerdAntwoord1, VerkeerdAntwoord2, VerkeerdAntwoord3) values (%s, %s, %s, %s, %s, %s)',
+        [quizid ,data[0], data[1], data[2], data[3], data[4]])
+    if ret == 0:
+        return jsonify(ret), 204
+    else:
+        return jsonify(ret), 200
+
+@app.route(endpoint + '/vraag/<vraagid>', methods = ['GET','PUT','DELETE'])
+def vraag(vraagid):
+    if request.method == 'GET':
+        check = conn.get_data(
+            "SELECT * FROM vraag where VraagId = '%s'" % vraagid)
+        return jsonify(check), 200
+    elif request.method == 'PUT':
+        data = request.get_json()
+        conn.set_data(
+            'update vraag set vraaginhoud=%s, JuistAntwoord=%s, VerkeerdAntwoord1=%s, VerkeerdAntwoord2=%s, VerkeerdAntwoord3=%s where VraagId=%s',
+            [data[0], data[1], data[2], data[3], data[4], vraagid])
+        return jsonify(vraagid=vraagid), 200
+    elif request.method == 'DELETE':
+        ret = conn.delete_data('delete from vraag where VraagId=%s', vraagid)
+        if ret == 0:
+            return jsonify(message='No records were deleted'), 204
+        else:
+            return jsonify(message=f'{ret} record(s) were deleted'), 200
 
 @app.route(endpoint + '/checkLogin', methods = ['POST'])
 def checkLogin():
@@ -121,26 +142,12 @@ def Decryption(s, k):
             decstr = decstr + chr(ord(i) - k)
     return decstr
 
-@app.route(endpoint + '/quiz/<quizid>', methods=['GET', 'PUT', 'DELETE'])
+@app.route(endpoint + '/quiz/<quizid>', methods=['GET', 'DELETE'])
 def quiz(quizid):
     if request.method == 'GET':
         return jsonify(conn.get_data(
-            'select * from treinen join bestemmingen b on treinen.bestemmingID = b.idbestemming where idtrein=%s',
-            quiz))
-    elif request.method == 'PUT':
-        data = request.get_json()
-        if ('vertrek' and 'bestemmingID' and 'spoor' and 'afgeschaft') in data.keys():
-            vertrek = data['vertrek']
-            bestemmingid = data['bestemmingID']
-            spoor = data['spoor']
-            vertraging = data['vertraging']
-            afgeschaft = data['afgeschaft']
-            conn.set_data(
-                'update treinen set vertrek=%s, bestemmingID=%s, spoor=%s,vertraging=%s, afgeschaft=%s where idtrein=%s',
-                [vertrek, bestemmingid, spoor, vertraging, afgeschaft, quiz])
-            return jsonify(treinid=quizid), 200
-        else:
-            return jsonify(status="Wrong inputs"), 400
+            'select * from vraag WHERE quizid=%s',
+            quizid))
     elif request.method == 'DELETE':
         conn.delete_data('delete from vraag where QuizId=%s', quizid)
         ret = conn.delete_data('delete from quiz where QuizId=%s', quizid)

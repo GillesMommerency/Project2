@@ -47,7 +47,7 @@ const checkRegister = function(json) {
         console.info('json object is aangemaakt');
         console.info(jsonObject);
        if(!jsonObject){
-        window.location.href = "http://127.0.0.1:5500/login.html";
+        window.location.href = "http://127.0.0.1:5502/login.html";
         alert('Account aangemaakt je kunt nu inloggen!')
        }
        else{

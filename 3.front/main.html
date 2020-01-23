@@ -1,37 +1,54 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Meta data -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Device Programming Examen 20 mei 2019</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/screen.css" />
-
-    <!-- Script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
-    <script defer src="script/mainpage.js"></script>
-    <script defer src="script/dataHandler.js"></script>
-    <script defer src="script/app_admin.js"></script>
-  </head>
-    <div style="text-align: center; margin-top: 50px;">
-      <label>BEHOUD DE RUST QUIZ</label><br>  
-      <div  class="button dag beheer">
-        Beheer quizzes
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This is my HTML5 boilerplate.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+       
+        <title>Project</title>        
+       
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/screen.css">  
+        <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo=" crossorigin="anonymous"></script> 
+        <script defer src="script/mainpage.js"></script>
+        <script defer src="script/dataHandler.js"></script>
+    </head>
+    <body >
+        <header class="c-app__main">
+          <div class="c-button-center">
+            <button class="c-button logout">Log out</button>
         </div>
-        <div  class="button dag start">
-            Start een quiz
+            <div class="o-container">
+             
+                <h1 class="c-title">
+                    Wie behoudt de rust
+                </h1>
+            
+                <div class="c-grid-2">
+                    <div class="c-button-center">
+                        <img class="c-monster" src="PNG/monster/monster02.png">
+                    </div>
+                    <div class="c-button-center">
+                        <img class="c-monster" src="PNG/monster/monster01.png">
+                    </div>
+                    <div class="c-button-center">
+                        <div class="c-button beheer">Quizzen beheren</div>
+                    </div>
+                    <div class="c-button-center">
+                        <div class="c-button start">Kies Quiz</div>
+                      
+                    </div>
+                </div>
             </div>
-            <div  class="button dag logout">
-              Log uit
-              </div>
-    </div>
-    </form>
-   
-  </body>
+        </header>
+
+        <footer class="c-app__footer">
+            <img class="c-logo" src="PNG/Logo/howest-hogeschool-logo.png">    
+            <img class="c-logo" src="PNG/Logo/mct.png">  
+            <img class="c-logo" src="PNG/Logo/Logo-Sport-en-bewegen-Keep-Moving-blauw-transparant1_0.png">
+            <img class="c-logo" src="PNG/Logo/sic.png">  
+        </footer>
+    </body>
 </html>

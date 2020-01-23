@@ -1,10 +1,10 @@
 
 
 const editQuiz = function(id){
-    console.log("Edit quiz: "+id)
+   
+    localStorage.setItem("id", id)
+    window.location.href = "http://127.0.0.1:5502/quizdetails.html";
 }
-
-
 
 const deleteQuiz = function(id){
     var r = confirm("Ben je zeker?");
@@ -69,11 +69,6 @@ const addQuiz = function(){
             'POST',
             JSON.stringify(data)
         );
-
-        // handleData(
-        //     `http://${window.location.hostname}:5000/api/v1/quiz`,
-        //     verwerkQuizzes
-        // );
     }
     else{
         console.log('incomplete')
@@ -84,9 +79,8 @@ const init = function() {
     console.log("here")
     getQuizzes();
     domQuizHolder = document.querySelector('.quizzes');
-    buttonAddQuiz = document.querySelector('.newQuiz')
-    buttonAddQuiz.addEventListener('click', addQuiz)
-    
+    buttonAddQuiz = document.querySelector('.newQuiz');
+    buttonAddQuiz.addEventListener('click', addQuiz);
 };
 
 

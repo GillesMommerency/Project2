@@ -1,0 +1,258 @@
+/*------------------------------------*\
+#Variables
+\*------------------------------------*/
+
+:root {
+    /* colors */
+    
+
+    /* whitespace */
+    
+}   
+
+/*------------------------------------*\
+#GENERIC
+\*------------------------------------*/
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Love Ya Like A Sister', arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------------------*\
+#Elements
+\*------------------------------------*/
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*------------------------------------*\
+#OBJECTS
+\*------------------------------------*/
+
+
+
+.o-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    max-width: 64em; /* 79.5 * 16px = 1272 */
+    width: 100%;
+}
+
+
+/*------------------------------------*\
+#COMPONENTS
+\*------------------------------------*/
+
+/*
+    Component: app__main
+*/
+
+.-app__main {
+    margin: 48px;
+    overflow: hidden;
+}
+ 
+.c-title {
+    text-align: center;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.c-space {
+    padding-top: 64px;
+}
+
+.c-label {
+    font-size: 40px;
+    line-height: 16px;   
+}
+
+.c-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 90%;
+    border: 5px solid #707070;
+    border-radius: 15px;
+    color: #000;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 40px;
+    line-height: 24px;
+    outline: none;
+    padding: 16px;
+}
+
+.c-button-center {
+    display: flex;
+    justify-content: center;
+}
+
+.c-button {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 5px solid #fff;
+    background-color: #575B90;
+    color: #fff;
+    padding: 24px;
+    line-height: 24px;
+    width: 400px;
+    outline: none;
+}
+
+.c-antwoord-center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.c-antwoord-1 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 5px solid #fff;
+    background-color: #CD6060;
+    color: #fff;
+    padding: 24px;
+    line-height: 24px;
+    width: 400px;
+    outline: none;
+}
+
+.c-antwoord-2 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 5px solid #fff;
+    background-color: #A8B033;
+    color: #fff;
+    padding: 24px;
+    line-height: 24px;
+    width: 400px;
+    outline: none;
+}
+
+.c-antwoord-3 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 5px solid #fff;
+    background-color: #7AAAFC;
+    color: #fff;
+    padding: 24px;
+    line-height: 24px;
+    width: 400px;
+    outline: none;
+}
+
+.c-antwoord-4 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 5px solid #fff;
+    background-color: #1FB829;
+    color: #fff;
+    padding: 24px;
+    line-height: 24px;
+    width: 400px;
+    outline: none;
+}
+
+.c-cirkel {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 100px;
+    border: 5px solid #fff;
+    background-color: #fff;
+    color: #000;
+    padding: 24px;
+    line-height: 24px;
+    height: 25px;
+    width: 25px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+
+.c-monster {
+    position: relative;
+    height: 200px;
+    margin-top: 160px;
+}
+
+.c-mon{
+    position: relative;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.c-mo{
+    position: relative;
+    height: 100px;
+    margin-top: 80px;
+}
+
+.c-monsters {
+    height: 96px
+}
+
+/*
+    Component: app__footer
+*/
+
+.c-app__footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #44C9F6;
+    height: 64px; 
+    padding: 16px;
+    bottom: 0;
+    width: 100%;
+    justify-items: center;
+    position: fixed;
+}
+
+.c-logo  {
+    height: 100%;
+}
+
+/*
+    Component: grid
+*/
+
+.c-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.c-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.c-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.c-grid-8 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}

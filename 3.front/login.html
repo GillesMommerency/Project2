@@ -1,37 +1,56 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Meta data -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Device Programming Examen 20 mei 2019</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/screen.css" />
-
-    <!-- Script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo=" crossorigin="anonymous"></script>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This is my HTML5 boilerplate.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+       
+        <title>Project</title>        
+       
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/screen.css">  
+        <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo=" crossorigin="anonymous"></script>
     <script defer src="script/login.js"></script>
     <script defer src="script/dataHandler.js"></script>
-    <script defer src="script/app_admin.js"></script>
-  </head>
-    <form style="text-align: center; margin-top: 50px;" method="POST">
-      <label>Log in:</label><br><br>
-      <label>Gebruikersnaam:</label><br>
-     <input type="text" name='gebruikersnaam'><br><br>
-     <label>Wachtwoord:</label><br>
-      <input type="text" name='wachtwoord'><br><br>
-      <div  class="button dag login">
-        Log in
-        </div>
-        <div class="button dag register">
-          Maak account
-          </div>
-    </form>
-   
-  </body>
+    </head>
+    <body style="background-image: url('PNG/Backgrounds/74385.jpg');">
+        <form class="c-app__main" method="POST">
+            <div class="o-container">
+                <h1 class="c-title">
+                    Log in:
+                </h1>
+
+                <div class="c-space">
+                    <label class="c-label" for="gebruikersnaam">
+                        Email address
+                    </label>
+                    <input class="c-input" type="text" name="gebruikersnaam" id="gebruikersnaam" placeholder="Gebruikersnaam" required>
+                </div>
+
+                <div class="c-space">
+                    <label class="c-label" for="wachtwoord">
+                        Password
+                    </label>
+                    <input class="c-input" type="password" name="wachtwoord" id="wachtwoord" required>
+                </div>
+                
+                <div class="c-space">
+                    <div class="c-button-center">
+                        <div class="c-button login">Log in</div>
+                        <div class="c-button register">Registreer</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
+
+        <footer class="c-app__footer">
+            <img class="c-logo" src="PNG/Logo/howest-hogeschool-logo.png">    
+            <img class="c-logo" src="PNG/Logo/mct.png">  
+            <img class="c-logo" src="PNG/Logo/Logo-Sport-en-bewegen-Keep-Moving-blauw-transparant1_0.png">
+            <img class="c-logo" src="PNG/Logo/sic.png">  
+        </footer>
+    </body>
 </html>

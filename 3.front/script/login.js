@@ -6,6 +6,7 @@ const backend = IP + '/api/v1';
 
 
 const login = function(){
+    
     var form = document.forms[0];
     var gebruikersnaam = form.querySelector('input[name="gebruikersnaam"]').value;
     var wachtwoord = form.querySelector('input[name="wachtwoord"]').value;
@@ -25,42 +26,31 @@ const login = function(){
 }
 
 const checkLogin = function(json) {
-    fetch( `http://${window.location.hostname}:5000/api/v1/checkLogin`,
-        {
-        method: 'POST',
-        body: json,
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        }
-      }).then(function(response) {
-        if (!response.ok) {
-            throw Error(
-                `Probleem bij de fetch(). Status Code: ${response.status}`
-            );
-        } else {
-            console.info('Er is een response teruggekomen van de server');
-            return response.json();
-        }
-    })
-    .then(function(jsonObject) {
-        console.info('json object is aangemaakt');
-        console.info('verwerken data');
-       if(jsonObject[0]['Amount']){
-        window.location.href = "http://127.0.0.1:5500/main.html";
-       }
-       else{
-           alert('Onjuiste gegevens!');
-           
-       }
-    })
-    .catch(function(error) {
-        console.error(`fout bij verwerken json ${error}`);
-    });
+    console.log(json)
+    handleData( 
+        `http://${window.location.hostname}:5000/api/v1/checkLogin`,
+        verwerkLogin,
+        'POST',
+        json
+    )
+};
+ 
+const verwerkLogin = function(data){
+    console.info('json object is aangemaakt');
+    console.info('verwerken data');
+    if(data[0]['Amount']){
+        console.log('redirect')
+        window.location.href = "http://127.0.0.1:5502/main.html";
+    }
+    else{
+        alert('Onjuiste gegevens!');
+        
+    }
+   
 };
 
 const goToRegisterPage = function(){
-    window.location.href = "http://127.0.0.1:5500/register.html";
+    window.location.href = "http://127.0.0.1:5502/register.html";
 }
 
 const init = function() {
