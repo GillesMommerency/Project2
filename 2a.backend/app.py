@@ -164,7 +164,7 @@ def addQuiz():
     print('jipla')
     conn.set_data(
         'INSERT INTO Quiz (Naam, Gebruikersnaam) values (%s, %s)',
-        [data[0], 'Gilles'])
+        [data[0], Username])
     return jsonify("Added question!")
 
 # Start app
