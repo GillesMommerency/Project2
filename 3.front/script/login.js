@@ -59,6 +59,7 @@ const init = function() {
     buttonLogin.addEventListener('click', login)
     let buttonRegister = document.querySelector('.register')
     buttonRegister.addEventListener('click', goToRegisterPage)
+    
 };
 
 

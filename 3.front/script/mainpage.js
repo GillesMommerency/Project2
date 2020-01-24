@@ -14,6 +14,10 @@ const goToQuizzes = function(){
     window.location.href = "http://127.0.0.1:5502/quizzes.html"
 }
 
+const startQuiz = function(){
+    window.location.href = "http://127.0.0.1:5502/startquizsummary.html"
+}
+
 
 const init = function() {
     // Get some DOM, we created empty earlier.
@@ -21,6 +25,8 @@ const init = function() {
     buttonBeheer.addEventListener('click', goToQuizzes)
     let buttonQuestion = document.querySelector('.logout')
     buttonQuestion.addEventListener('click', logout)
+    let buttonQuiz = document.querySelector('.start')
+    buttonQuiz.addEventListener('click', startQuiz)
 
 };
 
