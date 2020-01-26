@@ -11,8 +11,10 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/screen.css">  
         <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+        <script defer src="script/playerselect.js"></script>
+    <script defer src="script/dataHandler.js"></script>
     </head>
-    <body>
+    <body style="background-image: url('PNG/Backgrounds/74385.jpg');">
         <header class="c-app__main" action="#">
             <div class="o-container">
                 <h1 class="c-title">
@@ -27,10 +29,10 @@
                         <img class="c-mon" src="PNG/monster/monster04.png">
                     </div>
                     <div class="c-button-center">
-                        <button class="c-button">1 speler</button>
+                        <div class="c-button" onclick="startGame(1)">1 speler</div>
                     </div>
                     <div class="c-button-center">
-                        <button class="c-button">2 spelers</button>
+                        <div class="c-button" onclick="startGame(2)">2 spelers</div>
                     </div>
                     <div class="c-button-center">
                         <img class="c-mon" src="PNG/monster/monster05.png">
@@ -39,10 +41,10 @@
                         <img class="c-mon" src="PNG/monster/monster06.png">
                     </div>
                     <div class="c-button-center">
-                        <button class="c-button">3 spelers</button>
+                        <div class="c-button" onclick="startGame(3)">3 spelers</div>
                     </div>
                     <div class="c-button-center">
-                        <button class="c-button">4 spelers</button>
+                        <div class="c-button" onclick="startGame(4)">4 spelers</div>
                     </div>
                 </div>
             </div>

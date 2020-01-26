@@ -3,7 +3,7 @@
 const getVragen = function(){
     quizid = localStorage.getItem("id");
      handleData(
-		`http://${window.location.hostname}:5000/api/v1/quiz/${quizid}`,
+		localStorage.getItem('IP')+`/api/v1/quiz/${quizid}`,
 		verwerkVragen
     );
 }
@@ -44,7 +44,7 @@ const deleteVraag = function(id){
     var r = confirm("Ben je zeker?");
     if (r == true) {
         handleData(
-            `http://127.0.0.1:5000/api/v1/vraag/${id}`,
+            localStorage.getItem('IP')+`/api/v1/vraag/${id}`,
             getVragen,
             'DELETE'
         );

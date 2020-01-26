@@ -10,7 +10,7 @@ const deleteQuiz = function(id){
     var r = confirm("Ben je zeker?");
     if (r == true) {
         handleData(
-            `http://127.0.0.1:5000/api/v1/quiz/${id}`,
+            localStorage.getItem('IP')+`/api/v1/quiz/${id}`,
             getQuizzes,
             'DELETE'
         );
@@ -49,7 +49,7 @@ const verwerkQuizzes = function(data) {
 
 const getQuizzes = function() {
 	handleData(
-		`http://${window.location.hostname}:5000/api/v1/quiz`,
+		localStorage.getItem('IP')+`/api/v1/quiz`,
 		verwerkQuizzes
 	);
     }
@@ -64,7 +64,7 @@ const addQuiz = function(){
         var json =JSON.stringify(data);
         console.log(json);
         handleData(
-            `http://${window.location.hostname}:5000/api/v1/adding`,
+            localStorage.getItem('IP')+`/api/v1/adding`,
             getQuizzes,
             'POST',
             JSON.stringify(data)

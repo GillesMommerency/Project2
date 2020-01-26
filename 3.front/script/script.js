@@ -83,7 +83,7 @@ const changeQuestion = function(){
 const postQuestion = function(json) {
   let id = localStorage.getItem("id");
   handleData(
-      `http://${window.location.hostname}:5000/api/v1/addVraag/${id}`,
+    localStorage.getItem('IP')+`/api/v1/addVraag/${id}`,
       verwerkAdd,
         'POST',
         json
@@ -92,7 +92,7 @@ const postQuestion = function(json) {
 const putQuestion = function(json) {
   let id = localStorage.getItem("vraagid");
   handleData(
-    `http://${window.location.hostname}:5000/api/v1/vraag/${id}`,
+    localStorage.getItem('IP')+`/api/v1/vraag/${id}`,
     verwerkPut,
       'PUT',
       json
@@ -112,7 +112,7 @@ const verwerkPut = function(json) {
 const getVraag = function(){
   var vraagid = localStorage.getItem('vraagid')
   handleData(
-		`http://${window.location.hostname}:5000/api/v1/vraag/${vraagid}`,
+    localStorage.getItem('IP')+`/api/v1/vraag/${vraagid}`,
 		toonInput
 	);
 }

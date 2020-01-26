@@ -73,7 +73,7 @@ const VerwerkKeywords = function(data) {
 
 const getKeyWords = function(id) {
 	handleData(
-		`http://127.0.0.1:5000/api/v1/movies/${id}/keywords`,
+		localStorage.getItem('IP')+`/api/v1/movies/${id}/keywords`,
 		VerwerkKeywords
 	);
 };
@@ -127,7 +127,7 @@ const VerwerkFilms = function(jsonObject) {
 
 const getLijstFilms = function(letter) {
 	handleData(
-		`http://127.0.0.1:5000/api/v1/movies/alfabet/${letter}`,
+		localStorage.getItem('IP')+`/api/v1/movies/alfabet/${letter}`,
 		VerwerkFilms
 	);
 };

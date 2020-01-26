@@ -33,7 +33,7 @@ const startQuiz = function(id, naam){
 
 const getQuizzes = function() {
 	handleData(
-		`http://${window.location.hostname}:5000/api/v1/quiz`,
+		localStorage.getItem('IP')+`/api/v1/quiz`,
 		showQuizzes
 	);
     }

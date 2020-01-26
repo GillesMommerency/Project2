@@ -60,10 +60,15 @@ const checkRegister = function(json) {
     });
 };
 
+const goBack = function(){
+    window.location.href = "http://127.0.0.1:5502/login.html";
+}
+
 const init = function() {
     let buttonRegister = document.querySelector('.register')
     buttonRegister.addEventListener('click', register)
-    
+    let buttonBack = document.querySelector('.back')
+    buttonBack.addEventListener('click', goBack)
 };
 
 

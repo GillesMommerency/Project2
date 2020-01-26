@@ -28,7 +28,7 @@ const login = function(){
 const checkLogin = function(json) {
     console.log(json)
     handleData( 
-        `http://${window.location.hostname}:5000/api/v1/checkLogin`,
+        localStorage.getItem('IP')+`/api/v1/checkLogin`,
         verwerkLogin,
         'POST',
         json
@@ -59,6 +59,7 @@ const init = function() {
     buttonLogin.addEventListener('click', login)
     let buttonRegister = document.querySelector('.register')
     buttonRegister.addEventListener('click', goToRegisterPage)
+    localStorage.setItem('IP', IP);
     
 };
 
