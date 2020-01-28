@@ -87,6 +87,14 @@ h1 {
     padding-top: 64px;
 }
 
+canvas{
+	background-color: transparent;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+}
+
 .c-label {
     font-size: 40px;
     line-height: 16px;   

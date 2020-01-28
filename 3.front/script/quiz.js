@@ -29,39 +29,54 @@ audio.play();
 }
 
 const displayVraag = function(){
-    document.onkeydown = checkKey;
-    clearInterval(startTimer);
-    startVraagTimer();
-    getVraag();
-    getPlayer();
-    strafscherm.classList.remove('visible');
-    strafscherm.classList.add('invisible');
-    infoscherm.classList.remove('visible');
-    infoscherm.classList.add('invisible');
-    vraagscherm.classList.remove('invisible');
-    vraagscherm.classList.add('visible');
-}
-
-const getPlayer = function(){
     aantal = localStorage.getItem('aantalSpelers')
     console.log(aantal)
     if(counter <= aantal)
     {
-        console.log(counter)
-        console.log(counter)
-        console.log(counter)
-        console.log(counter)
-        console.log(JSON.parse(localStorage.getItem(`Speler${counter}`)))
-        activePlayer = JSON.parse(localStorage.getItem(`Speler${counter}`))
-        counter++;
-        monsterimgholder = (document.querySelector('.monster'))
-        console.log(activePlayer)
-        htmlcode = `<img class="c-monsters" src=${activePlayer.avatar}> `
-        monsterimgholder.innerHTML = htmlcode;
+        document.onkeydown = checkKey;
+        clearInterval(startTimer);
+        startVraagTimer();
+        getVraag();
+        getPlayer();
+        strafscherm.classList.remove('visible');
+        strafscherm.classList.add('invisible');
+        infoscherm.classList.remove('visible');
+        infoscherm.classList.add('invisible');
+        vraagscherm.classList.remove('invisible');
+        vraagscherm.classList.add('visible');
     }
     else{
-        alert('nieuwe ronde')
+        if(ronde<4)
+        {
+            counter = 1;
+            strafscherm.classList.remove('visible');
+            strafscherm.classList.add('invisible');
+            infoscherm.classList.remove('invisible');
+            infoscherm.classList.add('visible');
+            ronde++;
+            document.querySelector('.monsters').innerHTML = ``;
+            showPlayers();
+            // alert('nieuwe ronde')
+        }else{
+            window.location.href = "http://127.0.0.1:5502/podium.html";
+        }
     }
+}
+
+const getPlayer = function(){
+    
+    console.log(counter)
+    console.log(counter)
+    console.log(counter)
+    console.log(counter)
+    console.log(JSON.parse(localStorage.getItem(`Speler${counter}`)))
+    activePlayer = JSON.parse(localStorage.getItem(`Speler${counter}`))
+    counter++;
+    monsterimgholder = (document.querySelector('.monster'))
+    console.log(activePlayer)
+    htmlcode = `<img class="c-monsters" src=${activePlayer.avatar}> `
+    monsterimgholder.innerHTML = htmlcode;
+   
 }
 
 
@@ -186,8 +201,12 @@ const showTimer = function(){
 
 
 const showPlayers = function(){
+    showTimer();
+    startTimer = setInterval(timerCountdown, 1000);
+    let domRondeHolder = document.querySelector('.ronde')
     let domMonsterHolder = document.querySelector('.monsters')
     let players = localStorage.getItem('aantalSpelers')
+    domRondeHolder.innerHTML = `Ronde: ${ronde}`
     let playercounter = 0;
     while(playercounter < players){
         obj = JSON.parse(localStorage.getItem(`Speler${playercounter+1}`))
@@ -214,8 +233,7 @@ const init = function() {
     antwoord3 = document.querySelector('.c-antwoord-3')
     antwoord4 = document.querySelector('.c-antwoord-4')
     showPlayers();
-    showTimer();
-    startTimer = setInterval(timerCountdown, 1000);
+
 };
 
 document.addEventListener('DOMContentLoaded', init);
