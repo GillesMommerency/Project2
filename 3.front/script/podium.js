@@ -2,6 +2,10 @@ var holder;
 var players= [];
 var top3= [];
 
+const klaarQuiz = function(){
+    window.location.href = "http://127.0.0.1:5502/main.html";
+}
+
 const getAvatars = function(){
     players.forEach(element => {
         player = JSON.parse(element);
@@ -15,18 +19,6 @@ const getAvatars = function(){
        
 }
 
-// const getHartSlagen = function(){
-//     players.forEach(element => {
-//         player = JSON.parse(element);
-//         htmlcode=`
-//         <div class="c-button-center">
-//                         <img class="c-monsters" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">     
-//                     </div>
-//         `;
-//         holder.innerHTML += htmlcode; 
-//     });
-       
-// }
 
 const getScores = function(){
     players.forEach(element => {
@@ -52,21 +44,21 @@ const getMedals = function(){
         {
             htmlcode=`
             <div class="c-button-center">
-                <img class="c-mo" src="PNG/medals/first.png">                
+                <img style="margin-top: 5px;" class="c-mo" src="PNG/medals/first.png">                
             </div>
             `;
         }else if(player.score == topValues[1])
         {
             htmlcode=`
             <div class="c-button-center">
-                <img class="c-mo" src="PNG/medals/second.png">                
+                <img style="margin-top: 5px;" class="c-mo" src="PNG/medals/second.png">                
             </div>
             `;
         }else if(player.score == topValues[2])
         {
             htmlcode=`
             <div class="c-button-center">
-                <img class="c-mo" src="PNG/medals/third.png">                
+                <img style="margin-top: 5px;" class="c-mo" src="PNG/medals/third.png">                
             </div>
             `;
         }else{
@@ -95,6 +87,8 @@ const getInfo = function(){
 
 const init = function() {
     holder = document.querySelector('.holder')
+    spelers = localStorage.getItem('aantalSpelers')
+    holder.classList.add(`c-grid-${spelers}`)
     getInfo();
     getAvatars();
     getScores();

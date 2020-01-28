@@ -79,8 +79,8 @@ h1 {
  
 .c-title {
     text-align: center;
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 70px;
+    line-height: 70px;
 }
 
 .c-space {
@@ -92,6 +92,7 @@ canvas{
   position: absolute;
   top: 0px;
   left: 0px;
+   z-index: -1;
   
 }
 
@@ -279,4 +280,26 @@ canvas{
 .c-grid-8 {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+}
+
+/*
+FOR HEARTSENSOR
+*/
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 32px;        
+    text-align: left;
+    vertical-align: top;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    width: 69%; /* Set the width of the positioned div */
 }

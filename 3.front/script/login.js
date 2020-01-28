@@ -20,7 +20,7 @@ const login = function(){
         checkLogin(json);
     }
     else{
-        console.log('incomplete')
+        alert('Vul gegevens in!')
     }
    
 }
@@ -66,3 +66,14 @@ const init = function() {
 
 
 document.addEventListener('DOMContentLoaded', init);
+
+
+var crypt = {
+    secret : "CIPHERKEY",
+    encrypt : function (clear){
+
+      var cipher = CryptoJS.AES.encrypt(clear, crypt.secret);
+      cipher = cipher.toString();
+      return cipher;
+    }
+  };

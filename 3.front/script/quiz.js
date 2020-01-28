@@ -16,6 +16,7 @@ var counter = 1;
 var ronde = 1;
 let VraagTimer;
 var activePlayer;
+var filled = 0;
 
         
 audio.oncanplaythrough = function(){
@@ -26,6 +27,13 @@ audio.loop = true;
 
 audio.onended = function(){
 audio.play();
+}
+
+const berekenscore = function(){
+    pulse = parseInt(document.querySelector(`.hr${counter-1}`).innerHTML)
+    quo = pulse/5
+    returnscore = Math.round(200/quo*12)
+    return returnscore;
 }
 
 const displayVraag = function(){
@@ -54,8 +62,9 @@ const displayVraag = function(){
             infoscherm.classList.remove('invisible');
             infoscherm.classList.add('visible');
             ronde++;
-            document.querySelector('.monsters').innerHTML = ``;
-            showPlayers();
+            showTimer();
+            startTimer = setInterval(timerCountdown, 1000);
+            document.querySelector('.ronde').innerHTML = `Ronde ${ronde}`
             // alert('nieuwe ronde')
         }else{
             window.location.href = "http://127.0.0.1:5502/podium.html";
@@ -73,10 +82,18 @@ const getPlayer = function(){
     activePlayer = JSON.parse(localStorage.getItem(`Speler${counter}`))
     counter++;
     monsterimgholder = (document.querySelector('.monster'))
+    let heartHolder = document.querySelector('.heartholder')
+    heartHolder.innerHTML = `
+        <div id="hartslag${counter-1}" class="c-button-center box">
+                        <img class="c-monsters" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">
+                        <div class="text">
+                        <p class="hr${counter-1}"></p>
+                        </div>   
+                    </div> 
+        `
     console.log(activePlayer)
     htmlcode = `<img class="c-monsters" src=${activePlayer.avatar}> `
     monsterimgholder.innerHTML = htmlcode;
-   
 }
 
 
@@ -98,7 +115,7 @@ const feedbackWindow = function(good){
          </div>
         `
         var scoreholder = document.querySelector('.c-scoreholder');
-        let plusscore = 50;
+        let plusscore = berekenscore();
         scoreholder.innerHTML=`
         <h1>+ ${plusscore} punten</h1>
         <div class="c-button-center">
@@ -157,8 +174,8 @@ const verwerkVraag = function(data){
 function timerCountdown(){ 
     if(seconds!=0)
     {
-    seconds--;
-    timer.innerHTML= seconds;
+        seconds--;
+        timer.innerHTML= seconds;
     }
     else
     {
@@ -194,33 +211,58 @@ const showStartTimer = function(){
 
 const showTimer = function(){
     timer = document.querySelector('.timer')
-    seconds = 5;
+    seconds = 10;
     timer.innerHTML= seconds;
 }
 
 
 
-const showPlayers = function(){
-    showTimer();
-    startTimer = setInterval(timerCountdown, 1000);
+const getPlayers = function(){
     let domRondeHolder = document.querySelector('.ronde')
     let domMonsterHolder = document.querySelector('.monsters')
     let players = localStorage.getItem('aantalSpelers')
-    domRondeHolder.innerHTML = `Ronde: ${ronde}`
+    domRondeHolder.innerHTML = `Ronde ${ronde}`
     let playercounter = 0;
     while(playercounter < players){
+
         obj = JSON.parse(localStorage.getItem(`Speler${playercounter+1}`))
+        console.log(obj)
         htmlcode = `
         <div class="c-button-center">
                         <img class="c-mo" src="${obj.avatar}">
                     </div>
-                    <div class="c-button-center">
-                        <img class="c-mo" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">     
+                    <div id="hartslag${playercounter+1}" class="c-button-center box">
+                        <img class="c-mo" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">
+                        <div class="text">
+                        <p class="hr${playercounter+1}"></p>
+                        </div>     
                     </div>
         `
         playercounter = playercounter +1;
         domMonsterHolder.innerHTML += htmlcode;
     }
+    listenToHartslag();
+}
+
+const checkHRDisplayfilled = function(){
+    console.log('ye')
+    var hartslagen = document.querySelectorAll("[class*=hr]")
+        hartslagen.forEach(function(item) {
+            console.log(item)
+            if(item.innerHTML!="")
+            {
+                filled++;
+                console.log(filled)
+                console.log(hartslagen.length)
+            }
+          });
+          if(filled == hartslagen.length)
+          {
+           showTimer();
+           startTimer = setInterval(timerCountdown, 1000);
+            clearInterval(startGame);
+          }
+          filled = 0;
 }
 
 const init = function() {
@@ -232,7 +274,8 @@ const init = function() {
     antwoord2 = document.querySelector('.c-antwoord-2')
     antwoord3 = document.querySelector('.c-antwoord-3')
     antwoord4 = document.querySelector('.c-antwoord-4')
-    showPlayers();
+    startGame = setInterval( checkHRDisplayfilled, 1000);
+    getPlayers();
 
 };
 
@@ -313,4 +356,35 @@ function animateValue(id, start, end, duration) {
             clearInterval(timer);
         }
     }, stepTime);
+}
+
+const listenToHartslag = function(){
+    Hartslag1 = document.getElementById('hartslag1');
+    Hartslag2 = document.getElementById('hartslag2');
+    Hartslag3 = document.getElementById('hartslag3');
+    Hartslag4 = document.getElementById('hartslag4'); 
+    Hartslag1.addEventListener('click',function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        let hrm1 = new HeartRateMonitor('hr1');
+        hrm1.start();
+    })
+    Hartslag2.addEventListener('click',function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        let hrm2 = new HeartRateMonitor('hr2');
+        hrm2.start();
+    })
+    Hartslag3.addEventListener('click',function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        let hrm3 = new HeartRateMonitor('hr3');
+        hrm3.start();
+    })
+    Hartslag4.addEventListener('click',function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        let hrm4 = new HeartRateMonitor('hr4');
+        hrm4.start();
+    })
 }
