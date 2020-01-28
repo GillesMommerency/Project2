@@ -17,7 +17,7 @@ socketio = SocketIO(app, cors_allowed_origins='*')
 
 
 conn = Database(app=app, user='root', password='root',
-                db='quizdb', host='localhost', port=3306)
+                db='quizdbvragen', host='localhost', port=3306)
 endpoint = '/api/v1'
 
 logginIn = False
@@ -41,16 +41,21 @@ def alle_bestemmingen():
         quizzes = conn.get_data("SELECT * FROM quiz WHERE Gebruikersnaam = '%s'" % (Username))
         return jsonify(quizzes),200
 
-@app.route(endpoint + '/addVraag/<quizid>', methods = ['POST'])
+@app.route(endpoint + '/addVraag/<quizid>', methods = ['GET', 'POST'])
 def addVraag(quizid):
-    data = request.get_json();
-    ret = conn.set_data(
-        'INSERT INTO vraag (QuizId, vraaginhoud, JuistAntwoord, VerkeerdAntwoord1, VerkeerdAntwoord2, VerkeerdAntwoord3) values (%s, %s, %s, %s, %s, %s)',
-        [quizid ,data[0], data[1], data[2], data[3], data[4]])
-    if ret == 0:
-        return jsonify(ret), 204
-    else:
-        return jsonify(ret), 200
+    if request.method == 'GET':
+        check = conn.get_data(
+            "SELECT * FROM vraag where QuizId = '%s' ORDER BY RAND() LIMIT 1" % quizid)
+        return jsonify(check), 200
+    elif request.method == 'POST':
+        data = request.get_json();
+        ret = conn.set_data(
+            'INSERT INTO vraag (QuizId, vraaginhoud, JuistAntwoord, VerkeerdAntwoord1, VerkeerdAntwoord2, VerkeerdAntwoord3) values (%s, %s, %s, %s, %s, %s)',
+            [quizid, data[0], data[1], data[2], data[3], data[4]])
+        if ret == 0:
+            return jsonify(ret), 204
+        else:
+            return jsonify(ret), 200
 
 @app.route(endpoint + '/vraag/<vraagid>', methods = ['GET','PUT','DELETE'])
 def vraag(vraagid):

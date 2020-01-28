@@ -28,6 +28,8 @@ const showQuizzes = function(data) {
 const startQuiz = function(id, naam){
     localStorage.setItem('startQuizId', id)
     localStorage.setItem('startQuizName', naam)
+    console.log('id: '+localStorage.getItem('startQuizId'))
+    console.log(localStorage.getItem('startQuizName'))
     window.location.href = "http://127.0.0.1:5502/startquizscreen.html";
 }
 

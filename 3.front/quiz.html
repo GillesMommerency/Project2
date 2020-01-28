@@ -14,7 +14,7 @@
         <script defer src="script/quiz.js"></script>
         <script defer src="script/dataHandler.js"></script>
     </head>
-    <body style="background-image: url('PNG/Backgrounds/2.jpg');">
+    <body class="quizWallpaper">
         <header class="c-app__main" action="#">
             <div class="o-container infoscherm visible">
                 <h1 class="c-title">
@@ -22,30 +22,7 @@
                 </h1>
             
                 <div class="c-grid-4 monsters">
-                    <!-- <div class="c-button-center">
-                        <img class="c-mo" src="PNG/monsters/1.png">                
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-mo" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">     
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-mo" src="PNG/monsters/2.png">
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-mo" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">     
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-mo" src="PNG/monsters/3.png">
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-mo" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">     
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-mo" src="PNG/monsters/4.png">
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-mo" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">     
-                    </div> -->
+                    
                 </div>
 
                     <div class="c-antwoord-center">
@@ -57,7 +34,7 @@
             <!--VRAAGSCHERM-->
 
             <div class="o-container vraagscherm invisible">
-                <h1 class="c-title">
+                <h1 class="c-title vraagInhoud">
                     Hoe noemt de nationale mannen hockeyploeg?
                 </h1>
             
@@ -69,8 +46,8 @@
                     <div class="c-antwoord-center">
                         <button class="c-antwoord-2">Red Dragons</button>
                     </div>
-                    <div class="c-button-center">
-                        <img class="c-monsters" src="PNG/monsters/1.png">                
+                    <div class="c-button-center monster">
+                                       
                     </div>
                     <div class="c-antwoord-center">
                         <button class="c-antwoord-3">Rode Duivels</button>
@@ -83,7 +60,7 @@
             
                 <div class="c-grid-2">
                     <div class="c-antwoord-center">
-                        <div class="c-cirkel">25</div>
+                        <div class="c-cirkel vraagtimer"></div>
                     </div>
                     <div class="c-button-center">
                         <img class="c-monsters" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">     
@@ -96,34 +73,23 @@
 
 
             <div class="o-container strafscherm invisible">
-                <h1 class="c-title">
-                    challenge
+                <h1 class="c-title feedback">
+                    
                 </h1>
             
-                <div class="c-grid-4">
-                    <div class="c-button-center">
-                        <img class="c-monsters" src="PNG/monsters/1.png">                
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-monsters" src="PNG/monsters/2.png">
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-monsters" src="PNG/monsters/3.png">
-                    </div>
-                    <div class="c-button-center">
-                        <img class="c-monsters" src="PNG/monsters/4.png">
-                    </div>
+                <div class="c-monsterholder">
+                    
                 </div>
 
+                <div class="c-scoreholder">
+                    
+                </div>
                 
-                    <h1>10s planken</h1>
-                    <div class="c-button-center">
-                        <img src="PNG/forearmplank_600x200.png">
-                    </div>
+                    
 
                 <div class="c-space">
                     <div class="c-button-center">
-                        <button class="c-button">Volgende</button>
+                        <button class="c-button" onclick="displayVraag()">Volgende</button>
                     </div>
                 </div>
             </div>
