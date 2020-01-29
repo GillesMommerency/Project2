@@ -13,46 +13,46 @@
     <SUITE FILE_PATH="coverage/2a_backend$help.coverage" NAME="help Coverage Results" MODIFIED="1579599673642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2a_backend$socket.coverage" NAME="socket Coverage Results" MODIFIED="1579540397059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2a_backend$test.coverage" NAME="test Coverage Results" MODIFIED="1579084687036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/2a_backend$2a_backend.coverage" NAME="2a.backend Coverage Results" MODIFIED="1580325779438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/2a_backend$2a_backend.coverage" NAME="2a.backend Coverage Results" MODIFIED="1580332417604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#10#78#0" expanded="true" />
-                <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-                <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-                <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-                <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-                <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-                <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-                <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-                <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-                <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-                <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-                <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-                <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-                <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-                <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-                <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-                <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-                <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-                <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-                <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-                <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+                <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+                <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+                <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+                <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+                <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+                <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+                <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+                <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+                <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+                <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+                <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+                <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+                <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+                <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+                <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+                <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+                <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+                <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+                <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+                <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
               </folding>
             </state>
           </provider>
@@ -61,8 +61,8 @@
       <file leaf-file-name="i2c_lcd_driver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i2c_lcd_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="525">
+              <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#81#91#0" expanded="true" />
               </folding>
@@ -143,8 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +158,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,16 +297,15 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5708333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5729167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.42916667" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.42708334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -315,6 +314,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -341,35 +341,35 @@
           <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -423,35 +423,35 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -505,35 +505,35 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -587,35 +587,35 @@
           <caret line="97" column="45" lean-forward="false" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -641,35 +641,35 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -687,35 +687,35 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -733,35 +733,35 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -779,35 +779,35 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -825,35 +825,35 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -871,35 +871,35 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>
@@ -960,21 +960,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="634">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="78" selection-end-column="72" />
-          <folding>
-            <marker date="1567498166411" expanded="true" signature="488:514" ph="SELECT * FRO... bestemmingen" />
-            <marker date="1567498166411" expanded="true" signature="704:800" ph="SELECT * FRO... bestemmingen" />
-            <marker date="1567498166411" expanded="true" signature="1278:1378" ph="INSERT INTO treinen... " />
-            <marker date="1567498166411" expanded="true" signature="1820:1919" ph="select * fro... treinen" />
-            <marker date="1567498166411" expanded="true" signature="2351:2453" ph="update trein... " />
-            <marker date="1567498166411" expanded="true" signature="2724:2760" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/i2c_lcd_driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="525">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="e#81#91#0" expanded="true" />
           </folding>
@@ -983,39 +975,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#10#78#0" expanded="true" />
-            <marker date="1580325855959" expanded="true" signature="1003:1049" ph="SELECT * FRO... quiz" />
-            <marker date="1580325855959" expanded="true" signature="1298:1337" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1338" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1298:1348" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1541:1591" ph="SELECT * FRO... vraag" />
-            <marker date="1580325855959" expanded="true" signature="1765:1908" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2260:2300" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="2452:2584" ph="update vraag... " />
-            <marker date="1580325855959" expanded="true" signature="2769:2803" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="3124:3182" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3183" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3184" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3193" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3195" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3204" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3206" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3207" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3210" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3124:3233" ph="SELECT * FRO... login" />
-            <marker date="1580325855959" expanded="true" signature="3695:3741" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3771" ph="INSERT INTO vraag... " />
-            <marker date="1580325855959" expanded="true" signature="3695:3772" ph="INSERT INTO login... " />
-            <marker date="1580325855959" expanded="true" signature="3957:4021" ph="SELECT count... login" />
-            <marker date="1580325855959" expanded="true" signature="4323:4358" ph="select * fro... vraag" />
-            <marker date="1580325855959" expanded="true" signature="4445:4478" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4521:4553" ph="delete from " />
-            <marker date="1580325855959" expanded="true" signature="4905:4917" ph="INSERT INTO quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4960" ph="INSERT INTO Quiz... " />
-            <marker date="1580325855959" expanded="true" signature="4905:4991" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="1009:1055" ph="SELECT * FRO... quiz" />
+            <marker date="1580332417590" expanded="true" signature="1304:1343" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1344" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1304:1354" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1547:1597" ph="SELECT * FRO... vraag" />
+            <marker date="1580332417590" expanded="true" signature="1771:1914" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2266:2306" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="2458:2590" ph="update vraag... " />
+            <marker date="1580332417590" expanded="true" signature="2775:2809" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="3130:3188" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3189" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3190" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3199" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3201" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3210" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3212" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3213" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3216" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3130:3239" ph="SELECT * FRO... login" />
+            <marker date="1580332417590" expanded="true" signature="3701:3747" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3777" ph="INSERT INTO vraag... " />
+            <marker date="1580332417590" expanded="true" signature="3701:3778" ph="INSERT INTO login... " />
+            <marker date="1580332417590" expanded="true" signature="3963:4027" ph="SELECT count... login" />
+            <marker date="1580332417590" expanded="true" signature="4329:4364" ph="select * fro... vraag" />
+            <marker date="1580332417590" expanded="true" signature="4451:4484" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4527:4559" ph="delete from " />
+            <marker date="1580332417590" expanded="true" signature="4911:4923" ph="INSERT INTO quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4966" ph="INSERT INTO Quiz... " />
+            <marker date="1580332417590" expanded="true" signature="4911:4997" ph="INSERT INTO quiz... " />
           </folding>
         </state>
       </provider>

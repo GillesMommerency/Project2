@@ -4,8 +4,8 @@ from flask_socketio import SocketIO
 from flask_cors import CORS
 # Custom imports
 from DP1Database import Database
-from i2c_lcd_driver import I2c_led_driver
-lcd = I2c_led_driver()
+# from i2c_lcd_driver import I2c_led_driver
+# lcd = I2c_led_driver()
 
 # Start app
 app = Flask(__name__)
@@ -22,7 +22,7 @@ endpoint = '/api/v1'
 logginIn = False
 Username = ''
 vraagnummer = 19
-lcd.main()
+# lcd.main()
 
 
 @socketio.on('my event')

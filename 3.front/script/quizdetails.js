@@ -27,7 +27,7 @@ const verwerkVragen = function(data){
         <h1>${fout1}</h1>
         <h1>${fout2}</h1>
         <h1>${fout3}</h1>
-        <div class='btns'>
+        <div class='btns center'>
            <button onclick="editVraag(${id})" class="c-button-2">Edit</button>
            <button onclick="deleteVraag(${id})" class="c-button-2">Delete</button>
         </div>

@@ -319,6 +319,23 @@ canvas{
     Component: app__footer
 */
 
+.btns {
+    float: right;
+    text-align: center;
+}
+
+.quizzes{
+    text-align: center;
+    width: 100%;
+}
+.quiz{
+    width: 100%;
+    clear: both;
+}
+
+.newQuiz{
+    float: right;
+}
 .c-app__footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
