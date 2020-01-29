@@ -3,7 +3,7 @@
 
 
 const goPlayerSelect = function(){
-    window.location.href = "http://127.0.0.1:5502/playerselect.html"
+    window.location.href = "./playerselect.html"
 
 }
 

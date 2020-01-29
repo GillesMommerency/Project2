@@ -57,12 +57,12 @@ const deleteVraag = function(id){
 
 const newVraag = function(){
     localStorage.setItem('vraagid', "false");
-    window.location.href = "http://127.0.0.1:5502/admin.html";
+    window.location.href = "./vraag.html";
 }
 
 const editVraag = function(id){
    localStorage.setItem('vraagid', id)
-    window.location.href = "http://127.0.0.1:5502/admin.html";
+    window.location.href = "./vraag.html";
 };
 
 const init = function() {

@@ -3,7 +3,7 @@
 const editQuiz = function(id){
    
     localStorage.setItem("id", id)
-    window.location.href = "http://127.0.0.1:5502/quizdetails.html";
+    window.location.href = "./quizdetails.html";
 }
 
 const deleteQuiz = function(id){
@@ -32,7 +32,7 @@ const verwerkQuizzes = function(data) {
         htmlcode += `
         
         <div class="quiz">
-        <h2 style="float: left;">Quiz ${id}: ${naam}</h2>
+        <h2 style="float: left;">Quiz: ${naam}</h2>
 
         <div class='btns'>
            <button onclick="editQuiz(${id})" class="c-button-2">Edit</button>
@@ -73,7 +73,7 @@ const addQuiz = function(){
         alert('Quiz vanachter toegevoegd!')
     }
     else{
-        console.log('incomplete')
+        alert('Vul alle velden in!')
     }
 }
 

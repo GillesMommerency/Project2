@@ -40,7 +40,7 @@ const addQuestion = function(){
           }
     }
     else{
-        console.log('incomplete')
+      alert('Vul alle velden in!')
     }
    
 }
@@ -76,7 +76,7 @@ const changeQuestion = function(){
           }
     }
     else{
-        console.log('incomplete')
+       alert('Vul alle velden in!')
     }
 }
 
@@ -99,13 +99,13 @@ const putQuestion = function(json) {
 )
 };
 
-const verwerkAdd = function(json) {
+const verwerkAdd = function() {
   alert('Vraag toegevoegd!');
-  window.location.href = "http://127.0.0.1:5502/quizdetails.html";
+  window.location.href = "./quizdetails.html";
 };
-const verwerkPut = function(json) {
+const verwerkPut = function() {
   alert('Vraag aangepast!');
-  window.location.href = "http://127.0.0.1:5502/quizdetails.html";
+  window.location.href = "./quizdetails.html";
 };
 
 

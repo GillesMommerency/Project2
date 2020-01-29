@@ -4,7 +4,7 @@ var top3= [];
 var audio = new Audio("PNG/Applause.mp3" ) ;
 
 const klaarQuiz = function(){
-    window.location.href = "http://127.0.0.1:5502/main.html";
+    window.location.href = "./main.html";
 }
 
 const getAvatars = function(){

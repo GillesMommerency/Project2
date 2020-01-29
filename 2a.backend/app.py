@@ -4,9 +4,8 @@ from flask_socketio import SocketIO
 from flask_cors import CORS
 # Custom imports
 from DP1Database import Database
-import base64
-# import eventlet
-# eventlet.monkey_patch()
+from i2c_lcd_driver import I2c_led_driver
+lcd = I2c_led_driver()
 
 # Start app
 app = Flask(__name__)
@@ -22,6 +21,10 @@ endpoint = '/api/v1'
 
 logginIn = False
 Username = ''
+vraagnummer = 19
+lcd.main()
+
+
 @socketio.on('my event')
 def handle_my_custom_event(json):
     print('received json: ' + str(json))
@@ -44,8 +47,15 @@ def alle_bestemmingen():
 @app.route(endpoint + '/addVraag/<quizid>', methods = ['GET', 'POST'])
 def addVraag(quizid):
     if request.method == 'GET':
+        global vraagnummer
         check = conn.get_data(
-            "SELECT * FROM vraag where QuizId = '%s' ORDER BY RAND() LIMIT 1" % quizid)
+            "SELECT * FROM vraag where QuizId = '%s' LIMIT %d,1" % (quizid, vraagnummer))
+        vraagnummer = vraagnummer +1
+        print(check)
+        if len(check) == 0:
+            vraagnummer = 0
+            check = conn.get_data(
+                "SELECT * FROM vraag where QuizId = '%s' LIMIT %d,1" % (quizid, vraagnummer))
         return jsonify(check), 200
     elif request.method == 'POST':
         data = request.get_json();
@@ -116,36 +126,6 @@ def usernameExists(username):
     else:
         return False
 
-
-
-def Encryption(s, k):
-    encstr = ""
-    for i in s:
-        if (ord(i)) >= 65 and (ord(i) <= 90):
-            temp = (ord(i) + k)
-            if temp > 90:
-                temp = temp % 90 + 64
-            encstr = encstr + chr(temp)
-        elif (ord(i)) >= 97 and (ord(i) <= 122):
-            temp = (ord(i) + k)
-            if temp > 122:
-                temp = temp % 122 + 96
-            encstr = encstr + chr(temp)
-        else:
-            encstr = encstr + chr(ord(i) + k)
-    return encstr
-
-def Decryption(s, k):
-    p = Encryption(s, k)
-    decstr = ""
-    for i in p:
-        if ((ord(i)) >= 65) and (ord(i)) <= 90:
-            decstr = decstr + chr((ord(i) - k - 65) % 26 + 65)
-        elif ((ord(i)) >= 97) and (ord(i)) <= 122:
-            decstr = decstr + chr((ord(i) - k - 97) % 26 + 97)
-        else:
-            decstr = decstr + chr(ord(i) - k)
-    return decstr
 
 @app.route(endpoint + '/quiz/<quizid>', methods=['GET', 'DELETE'])
 def quiz(quizid):

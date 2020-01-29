@@ -21,15 +21,17 @@
     <script defer src="script/dataHandler.js"></script>
     <script defer src="script/app_admin.js"></script>
   </head>
+  <body >
     <form style="text-align: center; margin-top: 50px;" method="POST">
       <div class="c-button-center">
-        <h1>Geef hier je vraag in</h1><br> 
+        <h1>Geef hier je vraag in</h1>
       </div> 
       <input class="c-input" style="width: 50%;" type="textarea" name='vraag'><br><br>
-      <hr><br>
+      
       <div class="c-button-center">
-      <h1>Geef hier de antwoorden in:</h1><br>
+      <h1 style="clear: both;">Geef hier de antwoorden in </h1> 
       </div>
+      <h2>(Vink juiste antwoord aan!)</h2>
       <input checked type="radio" name="juist" id="antwoord1">&nbsp; <input class="c-input-2" type="text" name='antwoord1'><br><br>
       <input type="radio" name="juist" id="antwoord2">&nbsp;<input class="c-input-2" type="text" name='antwoord2'><br><br>
       <input type="radio" name="juist" id="antwoord3">&nbsp;<input class="c-input-2" type="text" name='antwoord3'><br><br>
@@ -39,10 +41,5 @@
         </div>
     </form> 
   </input>
-  <footer class="c-app__footer">
-    <img class="c-logo" src="PNG/Logo/howest-hogeschool-logo.png">    
-    <img class="c-logo" src="PNG/Logo/mct.png">  
-    <img class="c-logo" src="PNG/Logo/Logo-Sport-en-bewegen-Keep-Moving-blauw-transparant1_0.png">
-    <img class="c-logo" src="PNG/Logo/sic.png">  
-</footer>
+</body>
 </html>

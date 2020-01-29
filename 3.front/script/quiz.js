@@ -86,7 +86,7 @@ const displayVraag = function(){
             </h1>`
             // alert('nieuwe ronde')
         }else{
-            window.location.href = "http://127.0.0.1:5502/podium.html";
+            window.location.href = "./podium.html";
         }
     }
 }
@@ -104,9 +104,9 @@ const getPlayer = function(){
     let heartHolder = document.querySelector('.heartholder')
     heartHolder.innerHTML = `
         <div id="hartslag${counter-1}" class="c-button-center box">
-                        <img class="c-monsters" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">
+                        <img class="c-mo" src="https://i.giphy.com/media/dn07LBg1hpiVclEoQh/giphy.webp">
                         <div class="text">
-                        <p class="hr${counter-1}"></p>
+                        <p class="hr${counter-1} c-textheart"></p>
                         </div>   
                     </div> 
         `

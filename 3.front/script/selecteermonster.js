@@ -18,12 +18,12 @@ const chooseAvatar = function(img){
     if(speler < aantalSpelers)
     {
         localStorage.setItem('playersInitialized', speler)
-        window.location.href = "http://127.0.0.1:5502/selecteermonster.html"
+        window.location.href = "./selecteermonster.html"
 
     }
     else{
         console.log('Genoeg!!')
-        window.location.href = "http://127.0.0.1:5502/quiz.html"
+        window.location.href = "./quiz.html"
     }
 }
 

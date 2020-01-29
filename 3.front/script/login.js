@@ -40,7 +40,7 @@ const verwerkLogin = function(data){
     console.info('verwerken data');
     if(data[0]['Amount']){
         console.log('redirect')
-        window.location.href = "http://127.0.0.1:5502/main.html";
+        window.location.href = "./main.html";
     }
     else{
         alert('Onjuiste gegevens!');
@@ -50,7 +50,7 @@ const verwerkLogin = function(data){
 };
 
 const goToRegisterPage = function(){
-    window.location.href = "http://127.0.0.1:5502/register.html";
+    window.location.href = "./register.html";
 }
 
 const init = function() {

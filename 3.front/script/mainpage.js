@@ -7,15 +7,15 @@ socket = io(IP, {transports: ['websocket']});
 
 const logout = function(){
     socket.emit('logout');
-    window.location.href = "http://127.0.0.1:5502/login.html";
+    window.location.href = "./login.html";
 }
 
 const goToQuizzes = function(){
-    window.location.href = "http://127.0.0.1:5502/quizzes.html"
+    window.location.href = "./quizzes.html"
 }
 
 const startQuiz = function(){
-    window.location.href = "http://127.0.0.1:5502/startquizsummary.html"
+    window.location.href = "./startquizsummary.html"
 }
 
 
