@@ -17,7 +17,23 @@ var ronde = 1;
 let VraagTimer;
 var activePlayer;
 var filled = 0;
-
+var straffen=[{
+    titel : '10 Sec plank',
+    img :'PNG/Straffen/plank.png'
+},
+{
+    titel :'20 Jumping Jacks',
+    img : 'PNG/Straffen/JumpingJack.gif'
+},
+{
+    titel :'10 Push Ups',
+    img :'PNG/Straffen/PushUp.gif'
+},
+{
+    titel : '10 Burpees',
+    img :'PNG/Straffen/Burpee.gif'
+}
+];
         
 audio.oncanplaythrough = function(){
 audio.play();
@@ -64,7 +80,10 @@ const displayVraag = function(){
             ronde++;
             showTimer();
             startTimer = setInterval(timerCountdown, 1000);
-            document.querySelector('.ronde').innerHTML = `Ronde ${ronde}`
+            console.log('ronde: '+ ronde)
+            document.querySelector('.ronde').innerHTML = ` <h1 class="c-title">
+                    Ronde: ${ronde}
+            </h1>`
             // alert('nieuwe ronde')
         }else{
             window.location.href = "http://127.0.0.1:5502/podium.html";
@@ -141,10 +160,11 @@ const feedbackWindow = function(good){
          </div>
         `
         var scoreholder = document.querySelector('.c-scoreholder');
+        console.log(straffen)
         scoreholder.innerHTML=`
-        <h1>10 sec Plank</h1>
+        <h1>${straffen[ronde-1].titel}</h1>
         <div class="c-button-center">
-            <img src="PNG/forearmplank_600x200.png">
+            <img src="${straffen[ronde-1].img}">
         </div>
         `
         
@@ -203,7 +223,7 @@ const showStartTimer = function(){
 }
 
  const startVraagTimer = function(){
-     secondsVraag = 5;
+     secondsVraag = 10;
     vraagtimer = document.querySelector('.vraagtimer')
     vraagtimer.innerHTML = secondsVraag;
     VraagTimer = setInterval(showStartTimer, 1000);
@@ -221,7 +241,22 @@ const getPlayers = function(){
     let domRondeHolder = document.querySelector('.ronde')
     let domMonsterHolder = document.querySelector('.monsters')
     let players = localStorage.getItem('aantalSpelers')
-    domRondeHolder.innerHTML = `Ronde ${ronde}`
+    if(ronde == 1){
+       domRondeHolder.innerHTML = ` <h1 class="c-title">
+        Ronde ${ronde}
+            </h1>
+            <h2>
+            (Klik op hartjes om hartslagmeter te verbinden)
+    </h2>
+            `
+        }else{
+            domRondeHolder.innerHTML = `
+            <h1 class="c-title">
+            Ronde ${ronde}
+                </h1>`
+        }
+            
+    
     let playercounter = 0;
     while(playercounter < players){
 
@@ -249,7 +284,7 @@ const checkHRDisplayfilled = function(){
     var hartslagen = document.querySelectorAll("[class*=hr]")
         hartslagen.forEach(function(item) {
             console.log(item)
-            if(item.innerHTML!="")
+            if(item.innerHTML!="" && item.innerHTML!=0)
             {
                 filled++;
                 console.log(filled)

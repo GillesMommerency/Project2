@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" media="screen" href="style/quiz.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="style/screen.css" />
+    <link rel="stylesheet" href="css/screen.css">  
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet"> 
 
     <!-- Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
@@ -21,15 +23,28 @@
   </head>
   <body>
      <form method="POST">
+      <div class="o-container">
       <h1>Input nieuwe quiz met naam:</h1>
-      <input style="width: 300px; height: 40px; clear: right;" type="text" name='naam'>
-    <div class="button newQuiz">New</div>
+      <input class="c-input-2" type="text" name='naam'>
+    <div class="c-button-2 newQuiz">New</div>
+  </div>
    </form>
+   <div class="o-container">
     <h1>Quizzes:</h1>
     <hr>
+    <div class="myBox">
     <div class="quizzes">
       Loading...
      </div>
+    </div>
+  </div>
+
+     <footer class="c-app__footer">
+      <img class="c-logo" src="PNG/Logo/howest-hogeschool-logo.png">    
+      <img class="c-logo" src="PNG/Logo/mct.png">  
+      <img class="c-logo" src="PNG/Logo/Logo-Sport-en-bewegen-Keep-Moving-blauw-transparant1_0.png">
+      <img class="c-logo" src="PNG/Logo/sic.png">  
+    </footer>
    
   </body>
 </html>

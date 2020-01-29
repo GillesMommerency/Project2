@@ -24,6 +24,7 @@ body {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
    
 }
 
@@ -37,6 +38,10 @@ body {
 
 h1 {
     text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
 
@@ -111,10 +116,30 @@ canvas{
     color: #000;
     background-color: #fff;
     font-family: inherit;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 24px;
     outline: none;
     padding: 16px;
+}
+.c-input-2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 50%;
+    border: 5px solid #707070;
+    border-radius: 15px;
+    color: #000;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 32px;
+    line-height: 24px;
+    outline: none;
+    padding: 16px;
+}
+
+
+.c-input:hover, .c-input-2:hover {
+    border-color: #575B90;
 }
 
 .c-button-center {
@@ -135,6 +160,41 @@ canvas{
     width: 400px;
     outline: none;
     text-align: center;
+    justify-content: center;
+}
+
+.c-button-2 {
+    background-color: #575B90;
+    font-family: inherit;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 10px auto 50px auto;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1em;
+	height: 50px;
+	letter-spacing: 0.2px;
+	line-height: 50px;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 150px;
+	transition: none;
+	box-shadow: rgba(0, 0, 0, 0.5);
+	font-weight: 800;
+}
+
+.c-logout { 
+    padding-top: 24px;
+    padding-left: 24px;
+    position: right;
+   height: 40px;
+}
+
+.c-button:hover, .c-button-2:hover {
+    border-color: #575B90;
 }
 
 .c-antwoord-center {
@@ -222,6 +282,11 @@ canvas{
     margin-top: 160px;
 }
 
+.c-monsters:hover {
+    border-radius: 100px;
+    background-color: #575B90;
+}
+
 .c-mon{
     position: relative;
     height: 100px;
@@ -303,3 +368,31 @@ FOR HEARTSENSOR
     color: #fff;
     width: 69%; /* Set the width of the positioned div */
 }
+
+
+
+/* Box styles */
+.myBox {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    height: 450px;
+    overflow: scroll;
+    }
+    
+    /* Scrollbar styles */
+    ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    
+    
+    
+    ::-webkit-scrollbar-thumb {
+    background: white;  
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: grey;  
+    }

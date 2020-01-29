@@ -1,6 +1,7 @@
 var holder;
 var players= [];
 var top3= [];
+var audio = new Audio("PNG/Applause.mp3" ) ;
 
 const klaarQuiz = function(){
     window.location.href = "http://127.0.0.1:5502/main.html";
@@ -86,6 +87,7 @@ const getInfo = function(){
 }
 
 const init = function() {
+    audio.play();
     holder = document.querySelector('.holder')
     spelers = localStorage.getItem('aantalSpelers')
     holder.classList.add(`c-grid-${spelers}`)

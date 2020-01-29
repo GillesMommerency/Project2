@@ -30,12 +30,13 @@ const verwerkQuizzes = function(data) {
         naam = gegevens.Naam
 
         htmlcode += `
+        
         <div class="quiz">
         <h2 style="float: left;">Quiz ${id}: ${naam}</h2>
 
         <div class='btns'>
-           <button onclick="editQuiz(${id})" class="button">Edit</button>
-           <button onclick="deleteQuiz(${id})" class="button">Delete</button>
+           <button onclick="editQuiz(${id})" class="c-button-2">Edit</button>
+           <button onclick="deleteQuiz(${id})" class="c-button-2">Delete</button>
         </div>
     
         </div>
@@ -69,6 +70,7 @@ const addQuiz = function(){
             'POST',
             JSON.stringify(data)
         );
+        alert('Quiz vanachter toegevoegd!')
     }
     else{
         console.log('incomplete')

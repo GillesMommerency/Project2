@@ -13,7 +13,7 @@ const showQuizzes = function(data) {
         <h2 style="float: left;">Quiz ${id}: ${naam}</h2>
 
         <div class='btns'>
-           <button onclick="startQuiz('${id}','${naam}')" class="button">Start</button>
+           <button onclick="startQuiz('${id}','${naam}')" class="c-button-2">Start</button>
         </div>
     
         </div>

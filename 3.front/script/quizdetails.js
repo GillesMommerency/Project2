@@ -21,15 +21,15 @@ const verwerkVragen = function(data){
 
         htmlcode += `
         <div class="quiz">
-        <h2">Vraag ${id}:</h2"> <br>
-        <h4>${vraag}</h4>
-        <h5>${juist}</h5>
-        <h5>${fout1}</h5>
-        <h5>${fout2}</h5>
-        <h5>${fout3}</h5>
+        <h1>Vraag ${id}:</h1> <br>
+        <h1>${vraag}</h1>
+        <h1>${juist}</h1>
+        <h1>${fout1}</h1>
+        <h1>${fout2}</h1>
+        <h1>${fout3}</h1>
         <div class='btns'>
-           <button onclick="editVraag(${id})" class="button">Edit</button>
-           <button onclick="deleteVraag(${id})" class="button">Delete</button>
+           <button onclick="editVraag(${id})" class="c-button-2">Edit</button>
+           <button onclick="deleteVraag(${id})" class="c-button-2">Delete</button>
         </div>
         </div>
         `;
